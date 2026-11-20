@@ -1,0 +1,664 @@
+{
+  "workbook": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\cashback_retention_dashboard.xlsx",
+  "sheets": {
+    "Executive Dashboard": {
+      "non_empty_cells": 305,
+      "formula_cells": 0,
+      "charts": 3,
+      "conditional_formats": 1,
+      "freeze_panes": "B7",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Campaign Performance": {
+      "non_empty_cells": 98,
+      "formula_cells": 0,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Segment Analysis": {
+      "non_empty_cells": 239,
+      "formula_cells": 0,
+      "charts": 1,
+      "conditional_formats": 0,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Cohort Retention": {
+      "non_empty_cells": 112,
+      "formula_cells": 0,
+      "charts": 0,
+      "conditional_formats": 1,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Experiment Results": {
+      "non_empty_cells": 314,
+      "formula_cells": 0,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Forecast": {
+      "non_empty_cells": 255,
+      "formula_cells": 0,
+      "charts": 1,
+      "conditional_formats": 0,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Offer Simulator": {
+      "non_empty_cells": 63,
+      "formula_cells": 10,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "B9",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "KPI Calculations": {
+      "non_empty_cells": 205,
+      "formula_cells": 90,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Data Dictionary": {
+      "non_empty_cells": 163,
+      "formula_cells": 0,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "A10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Methodology": {
+      "non_empty_cells": 41,
+      "formula_cells": 0,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "A9",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    },
+    "Raw Data Sample": {
+      "non_empty_cells": 2013,
+      "formula_cells": 0,
+      "charts": 0,
+      "conditional_formats": 0,
+      "freeze_panes": "C10",
+      "gridlines_hidden": true,
+      "has_disclaimer": true,
+      "excel_errors": [],
+      "placeholders": []
+    }
+  },
+  "problems": [],
+  "sheet_order": [
+    "Executive Dashboard",
+    "Campaign Performance",
+    "Segment Analysis",
+    "Cohort Retention",
+    "Experiment Results",
+    "Forecast",
+    "Offer Simulator",
+    "KPI Calculations",
+    "Data Dictionary",
+    "Methodology",
+    "Raw Data Sample"
+  ],
+  "excel": {
+    "available": true,
+    "backend": "win32com",
+    "evaluated": {
+      "Offer Simulator": {
+        "$C$18": {
+          "label": "Customers redeeming",
+          "formula": "=$C$14*$C$11",
+          "value": "1,762"
+        },
+        "$C$19": {
+          "label": "Campaign cost",
+          "formula": "=$C$14*$C$11*$C$10",
+          "value": "\u20b970,025"
+        },
+        "$C$20": {
+          "label": "Incremental retained customers",
+          "formula": "=$C$14*$C$12",
+          "value": "730"
+        },
+        "$C$21": {
+          "label": "Incremental transactions",
+          "formula": "=$C$14*$C$12*$C$15",
+          "value": "2,142"
+        },
+        "$C$22": {
+          "label": "Incremental contribution",
+          "formula": "=$C$14*$C$12*$C$15*$C$13",
+          "value": "\u20b91,00,931"
+        },
+        "$C$23": {
+          "label": "Incremental profit",
+          "formula": "=$C$14*$C$12*$C$15*$C$13-$C$14*$C$11*$C$10",
+          "value": "\u20b930,906"
+        },
+        "$C$24": {
+          "label": "ROI",
+          "formula": "=IF($C$14*$C$11*$C$10=0,\"n/a\",($C$14*$C$12*$C$15*$C$13-$C$14*$C$11*$C$10)/($C$14*$C$11*$C$10))",
+          "value": "44.1%"
+        },
+        "$C$25": {
+          "label": "Cost per incremental retained",
+          "formula": "=IF($C$14*$C$12<=0,\"n/a\",$C$14*$C$11*$C$10/($C$14*$C$12))",
+          "value": "\u20b996"
+        },
+        "$C$26": {
+          "label": "Break-even uplift",
+          "formula": "=IF($C$15*$C$13=0,\"n/a\",$C$11*$C$10/($C$15*$C$13)*100)",
+          "value": "11.26 pp"
+        },
+        "$C$27": {
+          "label": "Verdict at the 15% hurdle",
+          "formula": "=IF($C$14*$C$11*$C$10=0,\"n/a\",IF(($C$14*$C$12*$C$15*$C$13-$C$14*$C$11*$C$10)/($C$14*$C$11*$C$10)>=0.15,\"Clears hurdle\",\"Below hurdle\"))",
+          "value": "Clears hurdle"
+        }
+      },
+      "KPI Calculations": {
+        "$C$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(C14:C20)",
+          "value": "13,967"
+        },
+        "$D$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(D14:D20)",
+          "value": "13,894"
+        },
+        "$E$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(E14:E20)",
+          "value": "9,560"
+        },
+        "$F$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(F14:F20)",
+          "value": "8,071"
+        },
+        "$G$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(G14:G20)",
+          "value": "19,751"
+        },
+        "$H$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(H14:H20)",
+          "value": "15,412"
+        },
+        "$I$21": {
+          "label": "TOTAL",
+          "formula": "=SUMPRODUCT(I14:I20,C14:C20)/SUM(C14:C20)",
+          "value": "\u20b9627"
+        },
+        "$J$21": {
+          "label": "TOTAL",
+          "formula": "=SUM(J14:J20)",
+          "value": "\u20b91,87,630"
+        },
+        "$B$25": {
+          "label": "Promising",
+          "formula": "=B14",
+          "value": "Promising"
+        },
+        "$C$25": {
+          "label": "Promising",
+          "formula": "=E14/C14",
+          "value": "70.4%"
+        },
+        "$D$25": {
+          "label": "Promising",
+          "formula": "=F14/D14",
+          "value": "54.1%"
+        },
+        "$E$25": {
+          "label": "Promising",
+          "formula": "=(E14/C14-F14/D14)*100",
+          "value": "16.23 pp"
+        },
+        "$F$25": {
+          "label": "Promising",
+          "formula": "=(E14/C14-F14/D14)*C14",
+          "value": "730"
+        },
+        "$G$25": {
+          "label": "Promising",
+          "formula": "=(G14/C14-H14/D14)*C14",
+          "value": "2,079"
+        },
+        "$H$25": {
+          "label": "Promising",
+          "formula": "=MAX(0,(G14/C14-H14/D14)*C14)*I14*$C$10",
+          "value": "\u20b997,943"
+        },
+        "$I$25": {
+          "label": "Promising",
+          "formula": "=MAX(0,(G14/C14-H14/D14)*C14)*I14*$C$10-J14",
+          "value": "\u20b927,918"
+        },
+        "$J$25": {
+          "label": "Promising",
+          "formula": "=IF(J14=0,\"n/a\",(MAX(0,(G14/C14-H14/D14)*C14)*I14*$C$10-J14)/J14)",
+          "value": "39.9%"
+        },
+        "$K$25": {
+          "label": "Promising",
+          "formula": "=IF((E14/C14-F14/D14)*C14<=0,\"n/a\",J14/((E14/C14-F14/D14)*C14))",
+          "value": "\u20b996"
+        },
+        "$B$26": {
+          "label": "At risk",
+          "formula": "=B15",
+          "value": "At risk"
+        },
+        "$C$26": {
+          "label": "At risk",
+          "formula": "=E15/C15",
+          "value": "68.2%"
+        },
+        "$D$26": {
+          "label": "At risk",
+          "formula": "=F15/D15",
+          "value": "43.6%"
+        },
+        "$E$26": {
+          "label": "At risk",
+          "formula": "=(E15/C15-F15/D15)*100",
+          "value": "24.61 pp"
+        },
+        "$F$26": {
+          "label": "At risk",
+          "formula": "=(E15/C15-F15/D15)*C15",
+          "value": "317"
+        },
+        "$G$26": {
+          "label": "At risk",
+          "formula": "=(G15/C15-H15/D15)*C15",
+          "value": "745"
+        },
+        "$H$26": {
+          "label": "At risk",
+          "formula": "=MAX(0,(G15/C15-H15/D15)*C15)*I15*$C$10",
+          "value": "\u20b935,055"
+        },
+        "$I$26": {
+          "label": "At risk",
+          "formula": "=MAX(0,(G15/C15-H15/D15)*C15)*I15*$C$10-J15",
+          "value": "\u20b911,025"
+        },
+        "$J$26": {
+          "label": "At risk",
+          "formula": "=IF(J15=0,\"n/a\",(MAX(0,(G15/C15-H15/D15)*C15)*I15*$C$10-J15)/J15)",
+          "value": "45.9%"
+        },
+        "$K$26": {
+          "label": "At risk",
+          "formula": "=IF((E15/C15-F15/D15)*C15<=0,\"n/a\",J15/((E15/C15-F15/D15)*C15))",
+          "value": "\u20b976"
+        },
+        "$B$27": {
+          "label": "New",
+          "formula": "=B16",
+          "value": "New"
+        },
+        "$C$27": {
+          "label": "New",
+          "formula": "=E16/C16",
+          "value": "61.3%"
+        },
+        "$D$27": {
+          "label": "New",
+          "formula": "=F16/D16",
+          "value": "56.0%"
+        },
+        "$E$27": {
+          "label": "New",
+          "formula": "=(E16/C16-F16/D16)*100",
+          "value": "5.25 pp"
+        },
+        "$F$27": {
+          "label": "New",
+          "formula": "=(E16/C16-F16/D16)*C16",
+          "value": "42"
+        },
+        "$G$27": {
+          "label": "New",
+          "formula": "=(G16/C16-H16/D16)*C16",
+          "value": "148"
+        },
+        "$H$27": {
+          "label": "New",
+          "formula": "=MAX(0,(G16/C16-H16/D16)*C16)*I16*$C$10",
+          "value": "\u20b97,907"
+        },
+        "$I$27": {
+          "label": "New",
+          "formula": "=MAX(0,(G16/C16-H16/D16)*C16)*I16*$C$10-J16",
+          "value": "\u20b91,157"
+        },
+        "$J$27": {
+          "label": "New",
+          "formula": "=IF(J16=0,\"n/a\",(MAX(0,(G16/C16-H16/D16)*C16)*I16*$C$10-J16)/J16)",
+          "value": "17.1%"
+        },
+        "$K$27": {
+          "label": "New",
+          "formula": "=IF((E16/C16-F16/D16)*C16<=0,\"n/a\",J16/((E16/C16-F16/D16)*C16))",
+          "value": "\u20b9160"
+        },
+        "$B$28": {
+          "label": "High value",
+          "formula": "=B17",
+          "value": "High value"
+        },
+        "$C$28": {
+          "label": "High value",
+          "formula": "=E17/C17",
+          "value": "90.3%"
+        },
+        "$D$28": {
+          "label": "High value",
+          "formula": "=F17/D17",
+          "value": "87.5%"
+        },
+        "$E$28": {
+          "label": "High value",
+          "formula": "=(E17/C17-F17/D17)*100",
+          "value": "2.87 pp"
+        },
+        "$F$28": {
+          "label": "High value",
+          "formula": "=(E17/C17-F17/D17)*C17",
+          "value": "34"
+        },
+        "$G$28": {
+          "label": "High value",
+          "formula": "=(G17/C17-H17/D17)*C17",
+          "value": "197"
+        },
+        "$H$28": {
+          "label": "High value",
+          "formula": "=MAX(0,(G17/C17-H17/D17)*C17)*I17*$C$10",
+          "value": "\u20b914,217"
+        },
+        "$I$28": {
+          "label": "High value",
+          "formula": "=MAX(0,(G17/C17-H17/D17)*C17)*I17*$C$10-J17",
+          "value": "-\u20b92,633"
+        },
+        "$J$28": {
+          "label": "High value",
+          "formula": "=IF(J17=0,\"n/a\",(MAX(0,(G17/C17-H17/D17)*C17)*I17*$C$10-J17)/J17)",
+          "value": "-15.6%"
+        },
+        "$K$28": {
+          "label": "High value",
+          "formula": "=IF((E17/C17-F17/D17)*C17<=0,\"n/a\",J17/((E17/C17-F17/D17)*C17))",
+          "value": "\u20b9499"
+        },
+        "$B$29": {
+          "label": "Dormant",
+          "formula": "=B18",
+          "value": "Dormant"
+        },
+        "$C$29": {
+          "label": "Dormant",
+          "formula": "=E18/C18",
+          "value": "30.8%"
+        },
+        "$D$29": {
+          "label": "Dormant",
+          "formula": "=F18/D18",
+          "value": "27.6%"
+        },
+        "$E$29": {
+          "label": "Dormant",
+          "formula": "=(E18/C18-F18/D18)*100",
+          "value": "3.20 pp"
+        },
+        "$F$29": {
+          "label": "Dormant",
+          "formula": "=(E18/C18-F18/D18)*C18",
+          "value": "53"
+        },
+        "$G$29": {
+          "label": "Dormant",
+          "formula": "=(G18/C18-H18/D18)*C18",
+          "value": "75"
+        },
+        "$H$29": {
+          "label": "Dormant",
+          "formula": "=MAX(0,(G18/C18-H18/D18)*C18)*I18*$C$10",
+          "value": "\u20b93,316"
+        },
+        "$I$29": {
+          "label": "Dormant",
+          "formula": "=MAX(0,(G18/C18-H18/D18)*C18)*I18*$C$10-J18",
+          "value": "-\u20b94,304"
+        },
+        "$J$29": {
+          "label": "Dormant",
+          "formula": "=IF(J18=0,\"n/a\",(MAX(0,(G18/C18-H18/D18)*C18)*I18*$C$10-J18)/J18)",
+          "value": "-56.5%"
+        },
+        "$K$29": {
+          "label": "Dormant",
+          "formula": "=IF((E18/C18-F18/D18)*C18<=0,\"n/a\",J18/((E18/C18-F18/D18)*C18))",
+          "value": "\u20b9143"
+        },
+        "$B$30": {
+          "label": "Active",
+          "formula": "=B19",
+          "value": "Active"
+        },
+        "$C$30": {
+          "label": "Active",
+          "formula": "=E19/C19",
+          "value": "75.3%"
+        },
+        "$D$30": {
+          "label": "Active",
+          "formula": "=F19/D19",
+          "value": "69.1%"
+        },
+        "$E$30": {
+          "label": "Active",
+          "formula": "=(E19/C19-F19/D19)*100",
+          "value": "6.22 pp"
+        },
+        "$F$30": {
+          "label": "Active",
+          "formula": "=(E19/C19-F19/D19)*C19",
+          "value": "241"
+        },
+        "$G$30": {
+          "label": "Active",
+          "formula": "=(G19/C19-H19/D19)*C19",
+          "value": "891"
+        },
+        "$H$30": {
+          "label": "Active",
+          "formula": "=MAX(0,(G19/C19-H19/D19)*C19)*I19*$C$10",
+          "value": "\u20b945,213"
+        },
+        "$I$30": {
+          "label": "Active",
+          "formula": "=MAX(0,(G19/C19-H19/D19)*C19)*I19*$C$10-J19",
+          "value": "-\u20b97,792"
+        },
+        "$J$30": {
+          "label": "Active",
+          "formula": "=IF(J19=0,\"n/a\",(MAX(0,(G19/C19-H19/D19)*C19)*I19*$C$10-J19)/J19)",
+          "value": "-14.7%"
+        },
+        "$K$30": {
+          "label": "Active",
+          "formula": "=IF((E19/C19-F19/D19)*C19<=0,\"n/a\",J19/((E19/C19-F19/D19)*C19))",
+          "value": "\u20b9220"
+        },
+        "$B$31": {
+          "label": "Loyal",
+          "formula": "=B20",
+          "value": "Loyal"
+        },
+        "$C$31": {
+          "label": "Loyal",
+          "formula": "=E20/C20",
+          "value": "79.8%"
+        },
+        "$D$31": {
+          "label": "Loyal",
+          "formula": "=F20/D20",
+          "value": "77.8%"
+        },
+        "$E$31": {
+          "label": "Loyal",
+          "formula": "=(E20/C20-F20/D20)*100",
+          "value": "1.98 pp"
+        },
+        "$F$31": {
+          "label": "Loyal",
+          "formula": "=(E20/C20-F20/D20)*C20",
+          "value": "13"
+        },
+        "$G$31": {
+          "label": "Loyal",
+          "formula": "=(G20/C20-H20/D20)*C20",
+          "value": "63"
+        },
+        "$H$31": {
+          "label": "Loyal",
+          "formula": "=MAX(0,(G20/C20-H20/D20)*C20)*I20*$C$10",
+          "value": "\u20b92,860"
+        },
+        "$I$31": {
+          "label": "Loyal",
+          "formula": "=MAX(0,(G20/C20-H20/D20)*C20)*I20*$C$10-J20",
+          "value": "-\u20b96,490"
+        },
+        "$J$31": {
+          "label": "Loyal",
+          "formula": "=IF(J20=0,\"n/a\",(MAX(0,(G20/C20-H20/D20)*C20)*I20*$C$10-J20)/J20)",
+          "value": "-69.4%"
+        },
+        "$K$31": {
+          "label": "Loyal",
+          "formula": "=IF((E20/C20-F20/D20)*C20<=0,\"n/a\",J20/((E20/C20-F20/D20)*C20))",
+          "value": "\u20b9719"
+        },
+        "$C$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=E21/C21",
+          "value": "68.4%"
+        },
+        "$D$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=F21/D21",
+          "value": "58.1%"
+        },
+        "$E$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=(E21/C21-F21/D21)*100",
+          "value": "10.36 pp"
+        },
+        "$F$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=SUM(F25:F31)",
+          "value": "1,431"
+        },
+        "$G$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=SUM(G25:G31)",
+          "value": "4,197"
+        },
+        "$H$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=SUM(H25:H31)",
+          "value": "\u20b92,06,511"
+        },
+        "$I$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=SUM(I25:I31)",
+          "value": "\u20b918,881"
+        },
+        "$J$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=IF(SUM(J14:J20)=0,\"n/a\",SUM(I25:I31)/SUM(J14:J20))",
+          "value": "10.1%"
+        },
+        "$K$32": {
+          "label": "ALL SEGMENTS",
+          "formula": "=IF(SUM(F25:F31)<=0,\"n/a\",SUM(J14:J20)/SUM(F25:F31))",
+          "value": "\u20b9131"
+        },
+        "$H$33": {
+          "label": "SCALE SEGMENTS",
+          "formula": "=H25+H26+H27",
+          "value": "\u20b91,40,904"
+        },
+        "$I$33": {
+          "label": "SCALE SEGMENTS",
+          "formula": "=I25+I26+I27",
+          "value": "\u20b940,099"
+        },
+        "$J$33": {
+          "label": "SCALE SEGMENTS",
+          "formula": "=IF(J14+J15+J16=0,\"n/a\",(I25+I26+I27)/(J14+J15+J16))",
+          "value": "39.8%"
+        }
+      }
+    },
+    "renders": {
+      "Executive Dashboard": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\executive_dashboard.png",
+      "Offer Simulator": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\offer_simulator.png",
+      "Segment Analysis": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\segment_analysis.png",
+      "Cohort Retention": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\cohort_retention.png",
+      "Forecast": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\forecast.png",
+      "KPI Calculations": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\kpi_calculations.png",
+      "Experiment Results": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\experiment_results.png",
+      "Campaign Performance": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\campaign_performance.png"
+    },
+    "errors": [],
+    "pdf": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\charts\\dashboard_sheets.pdf",
+    "preview": "C:\\Users\\braje\\Documents\\Codex\\2026-08-13\\b-2\\cashback-retention-analytics\\outputs\\dashboard_preview.png"
+  },
+  "passed": true
+}

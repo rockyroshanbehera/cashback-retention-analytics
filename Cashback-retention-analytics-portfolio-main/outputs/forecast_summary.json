@@ -1,0 +1,19 @@
+{
+  "selected_model": "7-day seasonal naive",
+  "holdout_days": 30,
+  "candidates": [
+    "7-day seasonal naive",
+    "28-day moving average",
+    "Holt-Winters additive"
+  ],
+  "train_start": "2025-01-01",
+  "train_end": "2025-12-01",
+  "holdout_start": "2025-12-02",
+  "holdout_end": "2025-12-31",
+  "forecast_start": "2026-01-01",
+  "forecast_end": "2026-01-30",
+  "mae": 127.03333333333333,
+  "mape": 0.07800327512299052,
+  "holdout_mean_actual": 1710.7333333333333,
+  "interval_method": "forecast +/- 1.96 x holdout residual SD"
+}

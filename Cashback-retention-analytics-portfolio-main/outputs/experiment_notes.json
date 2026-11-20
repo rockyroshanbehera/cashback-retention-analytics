@@ -1,0 +1,35 @@
+{
+  "experimental_unit": "customer within campaign",
+  "primary_metric": "D30 retention (>=1 successful transaction in days 0-29)",
+  "secondary_metrics": [
+    "D7 repeat (days 0-6)",
+    "post-window successful transactions per assigned customer",
+    "redemption rate among treated"
+  ],
+  "denominator": "all assigned customers in the arm, whether or not they redeemed (intent to treat)",
+  "outcome_filter": "successful transactions only; Failed and Reversed rows are excluded",
+  "guardrails": [
+    "cashback cost",
+    "incremental profit",
+    "average payment value"
+  ],
+  "multiple_comparisons": "Segment confidence intervals are exploratory and unadjusted.",
+  "causal_scope": "Valid for randomized eligible populations in this synthetic simulation only.",
+  "observed_vs_estimated": {
+    "observed": [
+      "campaign_performance.csv",
+      "segment_recommendations.csv",
+      "scenarios.csv rows where basis == 'Observed'"
+    ],
+    "estimated": [
+      "scenarios.csv rows where basis == 'Estimated'",
+      "Offer Simulator sheet in the Excel workbook"
+    ]
+  },
+  "assumptions": {
+    "contribution_margin_rate": 0.08,
+    "contribution_margin_source": "stated planning assumption, not a measured figure",
+    "txns_per_incremental_retained": 2.9332077410680166,
+    "txns_per_incremental_retained_source": "derived = sum(incremental_transactions) / sum(incremental_retained_customers) across all randomized segments"
+  }
+}

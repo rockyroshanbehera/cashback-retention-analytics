@@ -1,0 +1,22 @@
+{
+  "seed": 20260813,
+  "all_passed": true,
+  "checks": {
+    "customer_pk_unique": true,
+    "transaction_pk_unique": true,
+    "transaction_fk_valid": true,
+    "assignment_fk_valid": true,
+    "nonnegative_amounts": true,
+    "valid_transaction_dates": true,
+    "no_transaction_before_signup": true,
+    "no_assignment_before_signup": true,
+    "no_duplicate_assignment": true,
+    "offer_matches_treatment": true,
+    "no_control_redemption": true,
+    "valid_redemption_dates": true,
+    "valid_redemption_cost": true,
+    "missing_critical_fields": true,
+    "assignment_balance": true,
+    "no_prestart_campaign_increment": true
+  }
+}

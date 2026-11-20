@@ -1,0 +1,16 @@
+# Runtime dependencies for the pipeline and the Excel workbook.
+# SciPy and statsmodels are deliberately absent: the confidence intervals use a
+# normal approximation from the standard library and the Holt-Winters forecast is
+# implemented directly in src/build_forecast.py, so neither is imported anywhere.
+pandas>=2.0
+numpy>=1.24
+XlsxWriter>=3.1
+openpyxl>=3.1
+Pillow>=10.0
+
+# Test suite.
+pytest>=7.0
+
+# Optional, Windows only. Enables src/verify_workbook.py to recalculate the workbook
+# through Microsoft Excel and render sheets to PNG. The static audit runs without it.
+pywin32>=306; sys_platform == "win32"

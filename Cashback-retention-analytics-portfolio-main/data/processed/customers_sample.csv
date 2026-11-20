@@ -1,0 +1,251 @@
+customer_id,signup_date,region,acquisition_channel,age_band,initial_customer_type
+1,2025-01-22,West,Organic,18-24,Dormant
+2,2025-09-17,South,Paid social,25-34,Active
+3,2025-01-05,West,Organic,18-24,Promising
+4,2025-07-24,Central,Organic,18-24,At risk
+5,2025-06-18,North,Paid social,25-34,At risk
+6,2025-10-09,North,Paid social,35-44,New
+7,2025-07-22,South,Referral,25-34,Loyal
+8,2025-10-13,South,Partner,25-34,High value
+9,2025-01-05,Central,Referral,35-44,Loyal
+10,2025-11-26,South,Organic,25-34,New
+11,2025-05-24,South,Paid social,25-34,Active
+12,2025-10-27,South,Referral,35-44,At risk
+13,2025-03-19,North,Organic,18-24,Active
+14,2025-06-06,West,Paid social,18-24,Promising
+15,2025-06-01,South,Organic,35-44,Active
+16,2025-10-26,North,Organic,45+,New
+17,2025-07-19,South,Paid social,25-34,Promising
+18,2025-09-30,South,Organic,18-24,Dormant
+19,2025-06-06,East,Paid social,25-34,Loyal
+20,2025-01-02,Central,Search,35-44,Loyal
+21,2025-07-26,South,Paid social,35-44,At risk
+22,2025-05-21,East,Referral,18-24,Dormant
+23,2025-07-27,North,Partner,35-44,Loyal
+24,2025-02-19,Central,Search,25-34,High value
+25,2025-10-07,North,Referral,18-24,Dormant
+26,2025-04-20,North,Paid social,25-34,Dormant
+27,2025-07-07,South,Paid social,25-34,Active
+28,2025-03-19,West,Partner,25-34,At risk
+29,2025-05-02,East,Partner,18-24,High value
+30,2025-01-22,East,Referral,25-34,High value
+31,2025-08-17,West,Search,35-44,At risk
+32,2025-10-04,West,Paid social,25-34,High value
+33,2025-10-01,East,Search,18-24,At risk
+34,2025-04-03,South,Partner,18-24,At risk
+35,2025-09-03,Central,Paid social,25-34,At risk
+36,2025-07-26,Central,Referral,25-34,At risk
+37,2025-03-24,South,Organic,25-34,At risk
+38,2025-05-08,North,Paid social,18-24,High value
+39,2025-02-28,Central,Referral,18-24,At risk
+40,2025-01-10,North,Organic,25-34,Active
+41,2025-08-18,South,Organic,25-34,At risk
+42,2025-03-05,North,Search,25-34,Dormant
+43,2025-11-27,East,Referral,35-44,New
+44,2025-06-11,Central,Search,35-44,Loyal
+45,2025-09-03,East,Partner,45+,Loyal
+46,2025-01-22,West,Search,35-44,High value
+47,2025-01-06,South,Organic,25-34,Dormant
+48,2025-03-05,Central,Partner,25-34,Active
+49,2025-05-28,West,Referral,18-24,At risk
+50,2025-06-13,West,Referral,18-24,Loyal
+51,2025-10-10,North,Search,35-44,At risk
+52,2025-05-19,East,Organic,45+,Active
+53,2025-02-09,East,Referral,25-34,Promising
+54,2025-04-13,North,Referral,25-34,Active
+55,2025-08-26,South,Partner,25-34,Active
+56,2025-08-14,South,Paid social,25-34,High value
+57,2025-02-20,North,Partner,25-34,Dormant
+58,2025-03-02,North,Referral,18-24,Loyal
+59,2025-07-04,West,Organic,35-44,Dormant
+60,2025-06-26,South,Organic,25-34,Active
+61,2025-08-24,South,Organic,25-34,Loyal
+62,2025-01-02,East,Organic,25-34,At risk
+63,2025-01-03,Central,Organic,18-24,Active
+64,2025-08-19,East,Referral,25-34,At risk
+65,2025-03-17,North,Referral,18-24,Dormant
+66,2025-02-25,West,Organic,35-44,Loyal
+67,2025-09-21,South,Referral,18-24,Loyal
+68,2025-01-02,North,Partner,35-44,High value
+69,2025-01-16,West,Organic,35-44,Active
+70,2025-03-06,East,Paid social,18-24,Loyal
+71,2025-06-21,West,Paid social,35-44,At risk
+72,2025-10-03,East,Referral,35-44,Loyal
+73,2025-04-14,West,Organic,25-34,Promising
+74,2025-04-07,West,Partner,25-34,High value
+75,2025-05-31,North,Partner,25-34,Dormant
+76,2025-01-11,South,Referral,35-44,Dormant
+77,2025-02-18,West,Search,25-34,Loyal
+78,2025-05-22,South,Referral,45+,Loyal
+79,2025-11-20,East,Organic,35-44,New
+80,2025-08-30,Central,Partner,18-24,Dormant
+81,2025-05-19,East,Referral,18-24,Dormant
+82,2025-10-07,South,Organic,45+,Dormant
+83,2025-05-21,South,Search,25-34,Active
+84,2025-02-22,North,Organic,25-34,Loyal
+85,2025-09-17,North,Organic,18-24,Promising
+86,2025-05-27,South,Partner,45+,High value
+87,2025-02-11,East,Organic,45+,Dormant
+88,2025-01-19,West,Organic,18-24,At risk
+89,2025-02-06,North,Referral,35-44,High value
+90,2025-02-04,North,Search,25-34,Promising
+91,2025-05-26,Central,Organic,25-34,Loyal
+92,2025-03-08,North,Partner,35-44,Promising
+93,2025-09-18,South,Referral,18-24,New
+94,2025-09-12,East,Paid social,18-24,New
+95,2025-05-23,South,Partner,25-34,Dormant
+96,2025-04-01,East,Partner,25-34,Active
+97,2025-09-03,South,Organic,25-34,Active
+98,2025-02-08,West,Organic,25-34,Loyal
+99,2025-03-30,North,Organic,18-24,Loyal
+100,2025-05-29,West,Referral,45+,At risk
+101,2025-02-09,South,Partner,18-24,Active
+102,2025-10-14,East,Referral,18-24,At risk
+103,2025-07-01,Central,Search,25-34,High value
+104,2025-07-28,South,Referral,35-44,At risk
+105,2025-02-23,East,Referral,35-44,Promising
+106,2025-09-13,East,Organic,18-24,New
+107,2025-02-13,East,Referral,18-24,At risk
+108,2025-10-21,East,Search,18-24,Loyal
+109,2025-07-06,South,Partner,25-34,At risk
+110,2025-09-12,North,Paid social,25-34,High value
+111,2025-11-29,South,Organic,18-24,New
+112,2025-01-09,West,Partner,18-24,At risk
+113,2025-05-03,North,Organic,25-34,Promising
+114,2025-09-25,North,Paid social,18-24,High value
+115,2025-06-10,North,Partner,25-34,Loyal
+116,2025-12-04,East,Organic,25-34,New
+117,2025-02-10,South,Paid social,25-34,Dormant
+118,2025-08-31,West,Search,25-34,At risk
+119,2025-08-07,North,Organic,18-24,Active
+120,2025-04-11,West,Referral,25-34,Active
+121,2025-07-22,North,Organic,45+,At risk
+122,2025-07-02,North,Organic,18-24,Active
+123,2025-05-30,North,Referral,25-34,Active
+124,2025-02-18,South,Referral,18-24,Loyal
+125,2025-09-28,South,Partner,18-24,Active
+126,2025-08-01,East,Paid social,35-44,At risk
+127,2025-10-12,North,Paid social,35-44,At risk
+128,2025-01-16,Central,Referral,35-44,Promising
+129,2025-04-24,East,Partner,35-44,At risk
+130,2025-02-22,South,Organic,35-44,Promising
+131,2025-08-22,North,Paid social,18-24,Dormant
+132,2025-10-27,North,Referral,25-34,New
+133,2025-02-10,North,Referral,25-34,High value
+134,2025-07-22,South,Partner,25-34,Loyal
+135,2025-08-17,Central,Organic,25-34,High value
+136,2025-08-13,East,Search,18-24,Active
+137,2025-07-13,South,Paid social,18-24,Loyal
+138,2025-04-01,West,Organic,45+,Active
+139,2025-02-22,North,Referral,25-34,Active
+140,2025-08-28,North,Search,25-34,Loyal
+141,2025-06-06,South,Referral,18-24,Promising
+142,2025-08-09,Central,Organic,35-44,Active
+143,2025-01-22,South,Search,18-24,High value
+144,2025-05-06,West,Organic,18-24,Active
+145,2025-05-31,West,Organic,18-24,Dormant
+146,2025-07-02,North,Paid social,18-24,Active
+147,2025-05-30,Central,Paid social,25-34,Active
+148,2025-10-26,East,Partner,18-24,Loyal
+149,2025-10-23,Central,Organic,35-44,At risk
+150,2025-01-07,East,Paid social,25-34,Active
+151,2025-09-01,East,Paid social,25-34,High value
+152,2025-04-01,East,Referral,35-44,Promising
+153,2025-02-25,East,Organic,25-34,Loyal
+154,2025-06-15,North,Organic,18-24,High value
+155,2025-03-17,South,Referral,25-34,Dormant
+156,2025-06-29,West,Organic,35-44,Dormant
+157,2025-02-15,South,Organic,18-24,Loyal
+158,2025-04-22,East,Paid social,25-34,Loyal
+159,2025-02-27,South,Organic,35-44,Active
+160,2025-04-03,North,Partner,25-34,Active
+161,2025-05-28,East,Referral,25-34,Promising
+162,2025-08-09,Central,Referral,25-34,Dormant
+163,2025-11-09,North,Paid social,25-34,New
+164,2025-05-15,South,Organic,35-44,Loyal
+165,2025-01-10,South,Referral,18-24,Loyal
+166,2025-10-02,Central,Organic,25-34,Active
+167,2025-10-31,West,Partner,35-44,New
+168,2025-07-16,North,Referral,45+,Active
+169,2025-03-05,East,Paid social,35-44,Active
+170,2025-04-19,East,Referral,18-24,Active
+171,2025-10-31,West,Paid social,45+,New
+172,2025-10-01,East,Search,18-24,High value
+173,2025-08-23,Central,Search,18-24,Loyal
+174,2025-08-30,Central,Paid social,45+,New
+175,2025-06-18,South,Referral,25-34,Active
+176,2025-10-13,West,Organic,35-44,Promising
+177,2025-09-15,South,Referral,35-44,Active
+178,2025-04-26,West,Organic,18-24,At risk
+179,2025-10-20,North,Organic,18-24,New
+180,2025-02-12,North,Referral,25-34,At risk
+181,2025-04-28,East,Organic,18-24,Promising
+182,2025-05-05,South,Referral,18-24,Dormant
+183,2025-05-15,West,Organic,25-34,Active
+184,2025-04-12,South,Search,25-34,Active
+185,2025-08-21,West,Search,25-34,Dormant
+186,2025-09-08,North,Partner,25-34,New
+187,2025-09-05,Central,Search,25-34,At risk
+188,2025-03-06,South,Organic,25-34,At risk
+189,2025-08-25,West,Organic,18-24,Loyal
+190,2025-01-22,Central,Organic,25-34,Promising
+191,2025-07-27,North,Organic,18-24,Promising
+192,2025-05-03,South,Paid social,45+,Loyal
+193,2025-02-08,Central,Organic,25-34,Dormant
+194,2025-03-02,Central,Organic,18-24,Dormant
+195,2025-12-02,East,Referral,18-24,New
+196,2025-10-01,West,Search,25-34,Loyal
+197,2025-09-11,West,Organic,25-34,High value
+198,2025-09-27,North,Referral,18-24,Active
+199,2025-05-25,North,Referral,18-24,Promising
+200,2025-02-25,Central,Organic,18-24,Loyal
+201,2025-10-14,East,Organic,18-24,Promising
+202,2025-05-14,Central,Search,18-24,At risk
+203,2025-02-16,East,Partner,45+,Promising
+204,2025-09-16,East,Paid social,18-24,At risk
+205,2025-07-31,Central,Organic,25-34,Promising
+206,2025-01-18,East,Organic,25-34,Dormant
+207,2025-02-14,South,Partner,35-44,Loyal
+208,2025-10-09,East,Search,35-44,Active
+209,2025-06-24,West,Paid social,35-44,Loyal
+210,2025-06-01,South,Referral,18-24,High value
+211,2025-10-13,South,Organic,25-34,Active
+212,2025-10-14,Central,Referral,25-34,At risk
+213,2025-04-30,East,Referral,45+,Active
+214,2025-02-02,North,Organic,45+,At risk
+215,2025-10-15,South,Paid social,25-34,New
+216,2025-06-06,West,Referral,25-34,High value
+217,2025-06-01,South,Organic,25-34,Dormant
+218,2025-04-18,Central,Partner,18-24,Loyal
+219,2025-04-27,South,Paid social,25-34,High value
+220,2025-07-12,Central,Referral,25-34,Active
+221,2025-01-30,West,Organic,18-24,Active
+222,2025-10-16,West,Organic,18-24,New
+223,2025-05-02,East,Partner,35-44,At risk
+224,2025-11-04,East,Referral,18-24,New
+225,2025-05-15,East,Paid social,18-24,Active
+226,2025-03-03,North,Referral,45+,At risk
+227,2025-10-04,East,Organic,25-34,Active
+228,2025-02-24,East,Organic,25-34,Promising
+229,2025-09-08,North,Organic,25-34,High value
+230,2025-02-18,South,Organic,35-44,At risk
+231,2025-05-04,North,Organic,35-44,Loyal
+232,2025-06-11,North,Referral,18-24,Active
+233,2025-03-26,Central,Organic,18-24,Loyal
+234,2025-05-06,East,Organic,18-24,At risk
+235,2025-08-26,South,Partner,25-34,Loyal
+236,2025-08-11,North,Search,25-34,Loyal
+237,2025-02-26,Central,Organic,18-24,At risk
+238,2025-11-04,East,Search,25-34,New
+239,2025-01-06,South,Organic,35-44,Promising
+240,2025-04-17,South,Paid social,25-34,Promising
+241,2025-06-27,North,Search,18-24,Active
+242,2025-03-22,Central,Referral,18-24,High value
+243,2025-04-03,South,Search,45+,Active
+244,2025-03-26,South,Organic,18-24,Dormant
+245,2025-04-05,South,Organic,18-24,High value
+246,2025-01-16,North,Referral,45+,Active
+247,2025-04-15,East,Organic,25-34,Loyal
+248,2025-07-31,North,Referral,35-44,High value
+249,2025-10-13,Central,Referral,25-34,Loyal
+250,2025-02-10,North,Organic,35-44,Promising

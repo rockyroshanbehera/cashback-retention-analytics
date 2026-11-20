@@ -1,0 +1,14 @@
+{
+  "seed": 20260813,
+  "customers": 40000,
+  "transactions": 373237,
+  "successful_transactions": 360210,
+  "campaigns": 3,
+  "campaign_assignments": 27861,
+  "redemptions": 4502,
+  "rfm_snapshot_rows": 100170,
+  "start_date": "2025-01-01",
+  "end_date": "2025-12-31",
+  "reporting_period": "2025-01-01 to 2025-12-31",
+  "contribution_margin_rate": 0.08
+}

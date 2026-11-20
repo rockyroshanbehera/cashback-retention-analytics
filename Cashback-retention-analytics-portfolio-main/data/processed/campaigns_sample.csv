@@ -1,0 +1,4 @@
+campaign_id,campaign_name,start_date,end_date,target_segment,cashback_offer,minimum_spend
+1,Reactivation Boost,2025-08-15,2025-09-13,At risk + Dormant,40.0,250.0
+2,Habit Builder,2025-10-01,2025-10-30,Promising + Active,35.0,300.0
+3,Year-end Value,2025-11-15,2025-12-14,All eligible,50.0,500.0
